@@ -1,0 +1,90 @@
+Funcionalidades GasWay
+
+
+
+1. Módulos de usuario
+
+Registro y Autenticación
+
+Registro de usuarios: Permitir a los usuarios registrarse con correo electrónico, número de teléfono o a través de redes sociales.
+Inicio de sesión: Autenticación por correo, teléfono o redes sociales.
+Recuperación de contraseñas: Funcionalidad para recuperar contraseñas olvidadas a través de correo o SMS.
+Verificación de Identidad: Uso de OTP (One-Time Password) para verificación inicial.
+What is a One Time Password? OTP Explained (With Examples)
+
+Perfil de usuario
+
+Información personal.
+Lista de pedidos realizados con detalles.
+Métodos de pago: •tbk. | DEVELOPERS - Documentación
+Configuración para recibir notificaciones push, SMS, o correo. 
+GitHub - zo0r/react-native-push-notification
+
+Solicitud de pedido
+
+Ubicación actual del usuario para encontrar distribuidores cercanos.(Camiones distribuidores y puntos de venta)
+Lista de distribuidores disponibles en la zona con sus tarifas y tiempos estimados.
+Funcionalidad para solicitar el gas basándose en la última compra.
+Seguimiento en Tiempo Real.
+
+
+
+2. Módulos de Distribuidor
+
+Registro y Autenticación de Distribuidores
+
+Campos específicos como patente del camión, licencia, foto de perfil, y detalles de contacto.
+Verificación de Identidad y Documentos: Envío de documentos para verificación por parte de la administración.
+
+Perfil de distribuidor
+
+Información del distribuidor: Detalles del vehículo, rutas preferidas, tarifas, etc.
+Lista de pedidos completados, ingresos, y calificaciones.
+Configuración de disponibilidad (horarios de la distribuidora).
+
+
+
+Gestión de Pedidos
+
+Recepción de solicitudes: Notificación de nuevos pedidos cercanos.
+Opción para tomar o declinar pedidos con una estimación de ganancia.
+Integración con Google Maps para la mejor ruta al cliente.
+
+3. Módulos de Administración
+
+Gestión de Usuarios y Distribuidores (DESEABLE)
+
+Dashboard de usuarios: Visualización de estadísticas, perfiles y gestión de usuarios.
+Dashboard de distribuidores: Verificación, suspensión y gestión de perfiles de distribuidores.
+
+Gestión de Pedidos (POR CONFIRMAR)
+
+Funcionalidad para manejar quejas o problemas reportados por usuarios o distribuidores.
+
+Análisis y Reportes (POR CONFIRMAR)
+
+Estadísticas generales: Informes sobre uso de la aplicación, transacciones realizadas, tiempo medio de entrega, etc.
+Reportes financieros: Detalle de ingresos, comisiones, y pagos procesados.
+
+4. Funcionalidades Generales
+
+Geolocalización y Mapas
+
+Integración con Google Maps API (geolocalización, cálculo de rutas, y estimación de tiempos de llegada)
+Geofencing: Para crear áreas de operación específicas para los distribuidores y notificaciones automáticas cuando un usuario entra o sale de una zona específica.
+
+Pasarelas de Pago
+
+Integración de Pasarelas de Pago: Compatible con WebPay, MercadoPago, o Stripe para pagos seguros.
+Manejo de errores: Detección y gestión de transacciones fallidas, reembolsos, y retenciones.
+
+Notificaciones
+
+Notificaciones Push: Avisos de nuevos pedidos, actualizaciones de estado, ofertas, y promociones.
+Mensajería Interna: Chat en tiempo real entre el usuario y el distribuidor.
+
+Seguridad
+
+Encriptación de datos: Seguridad en la transmisión de datos personales y financieros.
+Two-Factor Authentication (2FA): Opción para agregar una capa extra de seguridad al inicio de sesión.
+
