@@ -1,1 +1,4 @@
 *.tmp
+
+# Ignorar archivos temporales de Word
+~$*
